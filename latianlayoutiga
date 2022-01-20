@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      h1, h2, h3, h4, h5, h6, p {
+        position: relative;
+        float: left;
+        color: red; 
+        width: 300px; 
+        height: 50px;
+        background-color: yellow;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: content-box;
+        display: block;
+      }
+
+      .kotakluar {
+        position: relative;
+        width: 600px;
+        height: 1000px;
+        background-color: yellow;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .kotakdalam {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 25px;
+        background-color: red;
+        display: block;
+        float: left;
+      }
+
+      .lain {
+        position: relative;
+        width: 150px;
+        height: 250px;
+        margin: 25px;
+        background-color: blue;
+        display: block;
+        float: left;
+      }
+
+      .joni {
+        width: 50px;
+        height: 50px;
+        background-color: yellowgreen;
+        margin: 10px;
+      }
+      
+      /**/
+      
+      .luar {
+        position: relative;
+        width: 800px;
+        height: 540px;
+        background-color: #efefef;
+        margin: 50px auto;
+        z-index: 1;
+      }
+      
+      .baris {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+        background-color: #dedede;
+      }
+      
+      .baris:nth-child(5) {
+        margin-bottom: 0px;
+      }
+      
+      .fullcol {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #ccc;
+      }
+      
+      .halfcol,
+      .half_width_content{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        background-color: #bbb; 
+        margin-right: 5%;
+        float: left;
+      }
+      
+      .halfcol:nth-child(even),
+      .half_width_content:nth-child(even) {
+        margin-right: 0;
+        margin-left: 5%;
+      }
+      
+      .baris:nth-child(3) .halfcol {
+        width: 65%;
+      }
+      
+      .baris:nth-child(3) .halfcol:nth-child(even) {
+        width: 25%;
+      }
+      
+      .baris:nth-child(5) .halfcol {
+        width: 65%;
+      }
+      
+      .baris:nth-child(5) .halfcol:nth-child(even) {
+        width: 25%;
+      }
+      
+      .full_width_content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+      }
+      
+      .half_width_content {
+        background-color: blue;
+      }
+      
+      .quarter_width_content {
+        position: relative;
+        width: 22%;
+        height: 100%;
+        margin-right: 4%;
+        background-color: green;
+        float:left;
+      }
+      
+      .quarter_width_content:nth-child(4) {
+        margin-right: 0;
+      }
+      
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!--<div class="kotakluar">-->
+    <!--  <div class="kotakdalam">-->
+    <!--    <div class="joni"></div>-->
+    <!--    <div class="joni"></div>-->
+    <!--  </div>-->
+    <!--  <div class="kotakdalam"></div>-->
+    <!--  <div class="kotakdalam"></div>-->
+    <!--  <div class="lain">-->
+
+    <!--  </div>-->
+    <!--</div>-->
+    <nav>
+      
+    </nav>
+    
+    <div class="luar">
+      
+      <div class="baris">
+        <div class="fullcol">
+          <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="fullcol">
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+        </div>
+      </div>
+      
+       <div class="baris">
+        <div class="fullcol">
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
+
+
