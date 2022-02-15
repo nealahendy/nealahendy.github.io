@@ -1,191 +1,131 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Hello</title>
-    <style>
-       *{ 
-       padding: 0px;
-       margin-left: 0px;
-       }
+    <head>
+        <title>Tugas Busport</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="assets/fonts/mont.css" />
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
 
-    .header {
-        position:relative ;
-        float:left;
-        color:silver;
-        width: 1728px;
-        height: 135px; 
-        background-color: white;
-        margin: 0px; 
-        padding: 0px;
-        box-sizing: content-box;
-        display:flex;
-        }
-
-    .badan1 {
-       position: relative ;
-       float:left;
-       color:silver;
-       width: 1728px;
-       height: 161px; 
-       background-color:white;
-       margin: 0px; 
-       padding-left: 165px;
-       box-sizing: content-box;
-       display: block;
-       }    
-
-    .badan2 {
-       position: relative ;
-       float:left;
-       color:plum;
-       width: 1728px;
-       height: 161px; 
-       background-color:white;
-       margin: 0px; 
-       padding-left: 165px;
-       box-sizing: content-box;
-       display: block;
-       }  
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
     
-    .footer{
-       position:relative ;
-       float:left;
-       color:plum;
-       width: 1728px;
-       height: 262px; 
-       background-color:white;
-       margin: 0px; 
-       padding-left: 165px;
-       box-sizing: content-box;
-       display: block;
-       }  
-   
-    .tengah{justify-content: center;}
+        
+    </head>
+    <body>
+      <div class="main_container">
+  
+        <div class="card"> <div class="kiri">
+          <div class="atas">
+            <h2>Stand Departure Information</h2>
+            <div class="isi">
+              <table class="route_table">
+                <thead>
+                  <tr>
+                    <th style="width:20%;border-right-color: white;">Route No.</th>
+                    <th style="border-left-color: white;border-right-color: white;">Location</th>
+                    <th style="width:20%;border-left-color: white;">Stand</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>81, 82, 83, 84, 85</td>
+                    <td>Perth Busport</td>
+                    <td>9 - 12</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="bawah">
+            <div class="isi">
+              <h3 style="color:green"><b>Transperth<br>Information</b></h3>
+            
+            </div>
 
- .dodgerblue {
-    position: relative;
-    width: 165px;
-    height: 119px;
-    background-color: dodgerblue;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    display:flex;
-    box-sizing: content-box;
-    float: left;}
+            <div class="stripijo"></div>
 
- .lawngreen{
-    position: relative;
-    width: 330px;
-    height: 119px; 
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:lawngreen;
-    display:flex;
-    box-sizing: content-box;
-    float: left;}
+            <div class="callus">
+              <h4> <b style="padding-top: 10px;">Call us</b></h4>
+              <h5> <b style="color: green;margin-left: 5%;">InfoLine</b> on 13 62 13</h5>
+              <h5 style="margin-left: 10%;">(TIS 13 14 50)</h5>
+              <h5><b style="color: green; margin-left: 5%;">Hearing or speech impaired?</b></h5>
+              <h5 style="margin-left: 10%;">Call via NRS on 133677</h5>
 
- .lightskyblue{
-    position: relative;
-    width: 334.5px;
-    height: 135px; 
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:lightskyblue;
-    display:flex;
-    box-sizing: content-box; 
-    float: left;}
+              <h4> <b style="padding-top: 10px;">Visit an InfoCentre at:</b></h4>
+              <h5> &#8226; Elisabeth Quay Bus Station</h5>
+              <h5> &#8226; Perh Busport</h5>
+              <h5> &#8226; Perth Station</h5>
+              <h5> &#8226; Perth Underground Station</h5>
 
- .palegoldenrod1{
-    position: relative;
-    width: 334px;
-    height: 224px; 
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:palegoldenrod;
-    display:flex;
-    box-sizing: content-box; 
-    float: left;}
+              <h4> <b style="padding-top: 10px;">Got an iPhone or Android device?</b></h4>
+              <h5> Download our free app now to help you plan your journey.</h5>
+              
+              <h4> <b style="padding-top: 10px;">Visit us online</b></h4>
+              <h5> transperth.wa.gov.au</h5>
 
- .palegoldenrod2{
-    position: relative;
-    width: 334px;
-    height: 209px; 
-    margin-top: 35px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:palegoldenrod;
-    display:flex;
-    box-sizing: content-box; 
-    float: left;}
+              </div>
+              
 
- .palegoldenrod3{
-    position: relative;
-    width: 334px;
-    height: 173px; 
-    margin-top: 72px; 
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:palegoldenrod;
-    display:flex;
-    box-sizing: content-box; 
-    float: left;}
+            
+          </div>
+        </div>
+        </div>
+  
+        <div class="card"><div class="kanan">
+          <div class="atas">
+             <div class="bustimetable">
+                <h2><b style="color:rgb(20, 21, 22); float: right;">Bus Timetable</b></h2>
+                <h1><b style="color:rgb(20, 21, 22);font-size: 200px;margin-bottom: 0px;">42</b></h1></div>
 
- .palegoldenrod4{
-    position: relative;
-    width: 334px;
-    height: 135px; 
-    margin-top: 108px; 
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color:palegoldenrod;
-    display:flex;
-    box-sizing: content-box; 
-    float:left;}
+             </div> 
 
 
-</style> 
-    
-   </head> 
-   <body > 
-      <div class="header tengah">
-      <div class="dodgerblue"></div>
-      <div class="lawngreen"></div> 
-      <div class="lawngreen"></div> 
-      <div class="lawngreen"></div>  
-      <div class="dodgerblue"></div> 
+          <div class="bawah">
+               
+            <div class="kotakpink">
+               <h5> For full service details for these routes, refer to Timetable 43.</h5>
+            </div>
+
+                <div class="routeslist">
+                    <h3 style="font-size: 20px;"><b>Routes </b></h3>
+                    <div class="stripbiru"></div>
+                    <table class="pilihanroute">
+                        <thead>
+                          <tr>
+                            <th style="width:20%; font-size: 200%;text-align: start;font-family: 'Outfit', sans-serif;
+                            font-weight:800;margin-top: 0px;">81</th>
+                            <th><b>Perth Webley </b> <br> via Cambridge St </th>
+                            <th style="float: right;"><img src="assets/gambar/icon.png" alt="parking" width="27" height="27"></th>
+                          </tr>
+                          <tr>
+                            <th style="width:20%; font-size: 200%;text-align: start;font-family: 'Outfit', sans-serif;
+                            font-weight:800;margin-top: 0px;">82</th>
+                            <th><b>Perth Webley </b> <br> via Cambridge St </th>
+                            <th style="float: right;"><img src="assets/gambar/icon.png" alt="parking" width="27" height="27"></th>
+                          </tr>
+                          <tr>
+                            <th style="width:20%; font-size: 200%;text-align: start;font-family: 'Outfit', sans-serif;
+                            font-weight:800;margin-top: 0px;">83</th>
+                            <th><b>Perth Webley </b> <br> via Cambridge St </th>
+                            <th style="float: right;"><img src="assets/gambar/icon.png" alt="parking" width="27" height="27"></th>
+                          </tr>
+                          <tr>
+                            <th style="width:20%; font-size: 200%;text-align: start;font-family: 'Outfit', sans-serif;
+                            font-weight:800;margin-top: 0px;">84</th>
+                            <th><b>Perth Webley </b> <br> via Cambridge St </th>
+                            <th style="float: right;"><img src="assets/gambar/icon.png" alt="parking" width="27" height="27"></th>
+                          </tr>
+                        </thead>
+                      </table>
+                    </div>
+                </div>
+          </div>
+        </div>
+  
       </div>
-
-      <div class="badan1 tengah">
-         <div class="lightskyblue"></div>
-       <div class="lightskyblue"></div> 
-       <div class="lightskyblue"></div> 
-       <div class="lightskyblue"></div>  
-      </div>
-       
-      <div class="badan2 tengah">
-         <div class="lightskyblue"></div>
-       <div class="lightskyblue"></div> 
-       <div class="lightskyblue"></div> 
-       <div class="lightskyblue"></div>  
-      </div>
-       
-      <div class="footer tengah">
-       <div class="palegoldenrod1"></div>
-       <div class="palegoldenrod2"></div> 
-       <div class="palegoldenrod3"></div> 
-       <div class="palegoldenrod4"></div>  
-      </div>
-           
-   </body>
-</html>
+    </body>
+  </html>
