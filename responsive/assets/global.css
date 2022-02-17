@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color:grey;
+  z-index: 2;
+}
+
+main {
+  position: relative;
+  width: calc(100vw - 200px);
+  min-height: 100vh;
+  height: 1500px;
+  margin-left:200px;
+  justify-content: center
+}
+
+.main_container {
+  position: relative;
+  width: 766px;
+  height: 30%;
+  float: left;
+  background-color:darkcyan;
+  justify-content: center;
+}
+
+aside {
+  position: relative;
+  width: 400px;
+  height: 30%;
+  float: left;
+  background-color:aqua;
+  justify-content: center;
+  float: inline-start;
+}
+
+.contentaside {
+  position: relative;
+  width: 80%;
+  height: 30%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  float: left;
+}
+
+@media (min-width: 601px) and (max-width: 1280px) {
+  .main_container, aside {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100vw;
+    height: 58px;
+  }
+
+  main {
+    width: 100vw;
+    margin-left: 0px;
+    margin-top:58px;
+  }
+  .main_container, aside {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  } 
+}
+
+.kotakmaroon{
+  width: 100%;
+  height: 20%;
+  margin:0px;
+  background-color:brown ;
+}
+
+.judul1abutua{
+  width: 70%;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color:darkgray;
+}
+
+.judul2abutua{
+  width: 60%;
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-color:darkgray;
+}
+
+.isiabutua{
+  width: 80%;
+  height: 20px;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-color:darkgray;
+}
+
+.contentasidesatu {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  float: left;
+}
+
+.contentasidedua {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  float: left;
+}
+
+.fotoabumuda{
+  width:60px;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color:darkgray;
+  float:none;
+}
+
+.tulisanabumuda{
+  width: 100%;
+  height: 20%;
+  margin-top: 14%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  background-color:darkgray;
+  float: inline-start;
+}
